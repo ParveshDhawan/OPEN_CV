@@ -8,7 +8,7 @@ pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tessera
 # Load image, convert to HSV format, define lower/upper ranges, and perform
 # color segmentation to create a binary mask
 
-image = cv2.imread(r'C:\Users\parvesh.dhawan\Desktop\safaltek_p1\test_images\00a05e10-d923-4c3f-bae6-09c753440b48.jpg')
+image = cv2.imread(r'00a05e10-d923-4c3f-bae6-09c753440b48.jpg')
 hsv = cv2.cvtColor(image, cv2.COLOR_BGR2HSV)
 
 for i, j, k in product(range(179), range(255), range(255)):

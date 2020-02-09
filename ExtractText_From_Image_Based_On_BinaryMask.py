@@ -1,4 +1,3 @@
-#https://stackoverflow.com/questions/24385714/detect-text-region-in-image-using-opencv
 import cv2
 import numpy as np
 import pytesseract
